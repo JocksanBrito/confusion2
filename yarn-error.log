@@ -1,0 +1,54 @@
+Arguments: 
+  /usr/local/Cellar/node/17.8.0/bin/node /usr/local/bin/yarn add lite-serve --save-dev
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/san/.cargo/bin:/Users/san/Library/Android/sdk/emulator:/Users/san/Library/Android/sdk/tools:/Users/san/Library/Android/sdk/tools/bin:/Users/san/Library/Android/sdk/platform-tools:/Users/san/.local/bin:/Users/san/.fzf/bin:/Users/san/Library/Android/sdk/emulator:/Users/san/Library/Android/sdk/tools:/Users/san/Library/Android/sdk/tools/bin:/Users/san/Library/Android/sdk/platform-tools:/Users/san/.local/bin
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  17.8.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/lite-serve: Not found
+      at Request.params.callback [as _callback] (/usr/local/lib/node_modules/yarn/lib/cli.js:66138:18)
+      at Request.self.callback (/usr/local/lib/node_modules/yarn/lib/cli.js:140883:22)
+      at Request.emit (node:events:527:28)
+      at Request.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141855:10)
+      at Request.emit (node:events:527:28)
+      at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141777:12)
+      at Object.onceWrapper (node:events:641:28)
+      at IncomingMessage.emit (node:events:539:35)
+      at endReadableNT (node:internal/streams/readable:1345:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "confusion2",
+    "version": "1.0.0",
+    "description": "This is Coursera especialization module 1 about bootstrap",
+    "main": "index.html",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/JocksanBrito/confusion2.git"
+    },
+    "author": "Jocksan Brito",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/JocksanBrito/confusion2/issues"
+    },
+    "homepage": "https://github.com/JocksanBrito/confusion2#readme"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
